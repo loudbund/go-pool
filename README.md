@@ -5,10 +5,15 @@ go-pool是用来控制并发协程数量和等待协程执行完成。4部可以
 3. 结束一个协程时并发-1
 4. 等待所有协程结束
 
-# 安装
+## 安装
 go get github.com/loudbund/go-pool
 
-# 使用
+## 引入
+```golang
+import "github.com/loudbund/go-pool/pool_v1"
+```
+
+## 使用
 ```golang
 package main
 
